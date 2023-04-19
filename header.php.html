@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>header.php</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #a9b7c6;}
+.s1 { color: #e8bf6a;}
+.s2 { color: #bababa;}
+.s3 { color: #a5c261;}
+.s4 { color: #6897bb;}
+.s5 { color: #cc7832;}
+.s6 { color: #cc7832;}
+.s7 { color: #a9b7c6;}
+.s8 { color: #808080;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+header.php</font>
+</center></td></tr></table>
+<pre>
+<span class="s1">&lt;header </span><span class="s2">class</span><span class="s3">=&quot;header&quot;</span><span class="s1">&gt;</span>
+        <span class="s1">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;flex&quot;</span><span class="s1">&gt;</span>
+            <span class="s1">&lt;a </span><span class="s2">href</span><span class="s3">=&quot;home.php&quot; </span><span class="s2">class</span><span class="s3">=&quot;logo&quot;</span><span class="s1">&gt;&lt;img </span><span class="s2">src</span><span class="s3">=&quot;img/logo.png&quot;</span><span class="s1">&gt;&lt;/a&gt;</span>
+            <span class="s1">&lt;nav </span><span class="s2">class</span><span class="s3">=&quot;navbar&quot;</span><span class="s1">&gt;</span>
+                <span class="s1">&lt;a </span><span class="s2">href</span><span class="s3">=&quot;home.php&quot;</span><span class="s1">&gt;</span><span class="s0">Home</span><span class="s1">&lt;/a&gt;</span>
+                <span class="s1">&lt;a </span><span class="s2">href</span><span class="s3">=&quot;view_products.php&quot;</span><span class="s1">&gt;</span><span class="s0">Products</span><span class="s1">&lt;/a&gt;</span>
+                <span class="s1">&lt;a </span><span class="s2">href</span><span class="s3">=&quot;order.php&quot;</span><span class="s1">&gt;</span><span class="s0">orders</span><span class="s1">&lt;/a&gt;</span>
+                <span class="s1">&lt;a </span><span class="s2">href</span><span class="s3">=&quot;about.php&quot;</span><span class="s1">&gt;</span><span class="s0">about us</span><span class="s1">&lt;/a&gt;</span>
+            <span class="s1">&lt;/nav&gt;</span>
+            <span class="s1">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;icons&quot;</span><span class="s1">&gt;</span>
+                <span class="s1">&lt;i </span><span class="s2">class</span><span class="s3">=&quot;bx bxs-user&quot; </span><span class="s2">id</span><span class="s3">=&quot;user-btn&quot;</span><span class="s1">&gt;&lt;/i&gt;</span>
+                <span class="s1">&lt;a </span><span class="s2">href</span><span class="s3">=&quot;wishlist.php&quot; </span><span class="s2">class</span><span class="s3">=&quot;cart-btn&quot;</span><span class="s1">&gt;&lt;i </span><span class="s2">class</span><span class="s3">=&quot;bx bx-heart&quot;</span><span class="s1">&gt;&lt;/i&gt;&lt;sup&gt;</span><span class="s0">0</span><span class="s1">&lt;/sup&gt;&lt;/a&gt;</span>
+                <span class="s1">&lt;a </span><span class="s2">href</span><span class="s3">=&quot;cart.php&quot; </span><span class="s2">class</span><span class="s3">=&quot;cart-btn&quot;</span><span class="s1">&gt;&lt;i </span><span class="s2">class</span><span class="s3">=&quot;bx bx-cart-download&quot;</span><span class="s1">&gt;&lt;/i&gt;&lt;sup&gt;</span><span class="s0">0</span><span class="s1">&lt;/sup&gt;&lt;/a&gt;</span>
+                <span class="s1">&lt;i </span><span class="s2">class</span><span class="s3">=&quot;bx bx-list-plus&quot; </span><span class="s2">id</span><span class="s3">=&quot;menu-btn&quot; </span><span class="s2">style</span><span class="s3">=&quot;</span><span class="s2">font-size</span><span class="s0">: </span><span class="s4">2</span><span class="s3">rem</span><span class="s5">;</span><span class="s3">&quot;</span><span class="s1">&gt;&lt;/i&gt;</span>
+            <span class="s1">&lt;/div&gt;</span>
+            <span class="s1">&lt;div </span><span class="s2">class</span><span class="s3">=&quot;user-box&quot;</span><span class="s1">&gt;</span>
+                <span class="s1">&lt;p&gt;</span><span class="s0">Username : </span><span class="s1">&lt;span&gt;</span><span class="s6">&lt;?php </span><span class="s8">//echo $_SESSION['user_name']; </span><span class="s6">?&gt;</span><span class="s1">&lt;/span&gt;&lt;/p&gt;</span>
+                <span class="s1">&lt;p&gt;</span><span class="s0">Email : </span><span class="s1">&lt;span&gt;</span><span class="s6">&lt;?php </span><span class="s8">//echo $_SESSION['user_email']; </span><span class="s6">?&gt;</span><span class="s1">&lt;/span&gt;&lt;/p&gt;</span>
+                <span class="s1">&lt;a </span><span class="s2">href</span><span class="s3">=&quot;login.php&quot; </span><span class="s2">class</span><span class="s3">=&quot;btn&quot;</span><span class="s1">&gt;</span><span class="s0">login</span><span class="s1">&lt;/a&gt;</span>
+                <span class="s1">&lt;a </span><span class="s2">href</span><span class="s3">=&quot;register.php&quot; </span><span class="s2">class</span><span class="s3">=&quot;btn&quot;</span><span class="s1">&gt;</span><span class="s0">register</span><span class="s1">&lt;/a&gt;</span>
+                <span class="s1">&lt;form </span><span class="s2">method</span><span class="s3">=&quot;post&quot;</span><span class="s1">&gt;</span>
+                    <span class="s1">&lt;button </span><span class="s2">type</span><span class="s3">=&quot;submit&quot; </span><span class="s2">name</span><span class="s3">=&quot;logout&quot; </span><span class="s2">class</span><span class="s3">=&quot;logout-btn&quot;</span><span class="s1">&gt;</span><span class="s0">log out</span><span class="s1">&lt;/button&gt;</span>
+                <span class="s1">&lt;/form&gt;</span>
+            <span class="s1">&lt;/div&gt;</span>
+        <span class="s1">&lt;/div&gt;</span>
+<span class="s1">&lt;/header&gt;</span>
+</pre>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>connection.php</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cc7832;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #9876aa;}
+.s3 { color: #6a8759;}
+.s4 { color: #a9b7c6;}
+.s5 { color: #808080;}
+.s6 { color: #6897bb;}
+.s7 { color: #a9b7c6;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+connection.php</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;?php</span>
+    <span class="s2">$db_name </span><span class="s1">= </span><span class="s3">'mysql:host=localhost;dbname=shop_db'</span><span class="s0">;</span>
+    <span class="s2">$db_user </span><span class="s1">= </span><span class="s3">'root'</span><span class="s0">;</span>
+    <span class="s2">$db_password </span><span class="s1">= </span><span class="s3">''</span><span class="s0">;</span>
+
+    <span class="s2">$conn </span><span class="s1">= </span><span class="s0">new </span><span class="s4">PDO</span><span class="s1">(</span><span class="s2">$db_name</span><span class="s0">, </span><span class="s2">$db_user</span><span class="s0">, </span><span class="s2">$db_password</span><span class="s1">)</span><span class="s0">;</span>
+
+<span class="s5">//    if($conn){</span>
+<span class="s5">//       echo &quot;Connected&quot;;</span>
+<span class="s5">//    }</span>
+    <span class="s0">function </span><span class="s4">unique_id</span><span class="s1">(){</span>
+        <span class="s2">$chars </span><span class="s1">= </span><span class="s3">'0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'</span><span class="s0">;</span>
+        <span class="s2">$charLength </span><span class="s1">= </span><span class="s4">strlen</span><span class="s1">(</span><span class="s2">$chars</span><span class="s1">)</span><span class="s0">;</span>
+        <span class="s2">$randomString </span><span class="s1">= </span><span class="s3">''</span><span class="s0">;</span>
+        <span class="s0">for</span><span class="s1">(</span><span class="s2">$i </span><span class="s1">= </span><span class="s6">0</span><span class="s0">; </span><span class="s2">$i </span><span class="s1">&lt; </span><span class="s6">20</span><span class="s0">; </span><span class="s2">$i</span><span class="s1">++){</span>
+            <span class="s2">$randomString </span><span class="s1">.= </span><span class="s2">$chars</span><span class="s1">[</span><span class="s4">mt_rand</span><span class="s1">(</span><span class="s6">0</span><span class="s0">, </span><span class="s2">$charLength </span><span class="s1">- </span><span class="s6">1</span><span class="s1">)]</span><span class="s0">;</span>
+        <span class="s1">}</span>
+        <span class="s0">return </span><span class="s2">$randomString</span><span class="s0">;</span>
+    <span class="s1">}</span>
+<span class="s0">?&gt;</span>
+</pre>
+</body>
+</html>
