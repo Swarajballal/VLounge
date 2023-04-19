@@ -114,9 +114,9 @@
                 <h1>Trending Menu</h1>
             </div>
             <div class="row">
-                <img src="img/1.png">
+                <img src="img/menu_pizza.png">
                 <div class="row-detail">
-                    <img src="img/logo3.png">
+                    <img src="img/shop_row_img.png">
                     <div class="top-footer">
                         <h1>a cup of coffee makes you attentive</h1>
                     </div>
@@ -124,28 +124,48 @@
             </div>
             <div class="box-container">
                 <div class="box">
-                    <img src="">
-                    <a href="view_products.php">Order Now</a>
+                    <img src="img/order_1.jpg">
+                    <a href="view_products.php" class="btn">Order Now</a>
                 </div>
                 <div class="box">
-                    <img src="">
-                    <a href="view_products.php">Order Now</a>
+                    <img src="img/order_2.jpg">
+                    <a href="view_products.php" class="btn">Order Now</a>
                 </div>
                 <div class="box">
-                    <img src="">
-                    <a href="view_products.php">Order Now</a>
+                    <img src="img/order_3.jpg">
+                    <a href="view_products.php" class="btn">Order Now</a>
                 </div>
                 <div class="box">
-                    <img src="">
-                    <a href="view_products.php">Order Now</a>
+                    <img src="img/order_4.jpg">
+                    <a href="view_products.php" class="btn">Order Now</a>
                 </div>
                 <div class="box">
-                    <img src="">
-                    <a href="view_products.php">Order Now</a>
+                    <img src="img/order_5.jpg">
+                    <a href="view_products.php" class="btn">Order Now</a>
                 </div>
                 <div class="box">
-                    <img src="">
-                    <a href="view_products.php">Order Now</a>
+                    <img src="img/order_6.jpg">
+                    <a href="view_products.php" class="btn">Order Now</a>
+                </div>
+            </div>
+        </section>
+        <section class="shop-category">
+            <div class="box-container">
+                <div class="box">
+                    <img src="img/shop_category1.png"/>
+                    <div class="detail">
+                        <span>BIG OFFERS</span>
+                        <h1>Extra 15% off</h1>
+                        <a href="view_products.php" class="btn">Order Now</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="img/shop_category1.png"/>
+                    <div class="detail">
+                        <span>New in Taste</span>
+                        <h1>Pizzeria</h1>
+                        <a href="view_products.php" class="btn">Order Now</a>
+                    </div>
                 </div>
             </div>
         </section>
