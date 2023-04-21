@@ -160,12 +160,63 @@
                     </div>
                 </div>
                 <div class="box">
-                    <img src="img/shop_category1.png"/>
+                    <img src="img/shop_category2.png"/>
                     <div class="detail">
                         <span>New in Taste</span>
-                        <h1>Pizzeria</h1>
+                        <h1>Healthy</h1>
                         <a href="view_products.php" class="btn">Order Now</a>
                     </div>
+                </div>
+            </div>
+        </section>
+        <section class="services">
+            <div class="box-container">
+                <div class="box">
+                    <img src="https://img.icons8.com/ios/250/000000/get-cash--v1.png"/>
+                    <div class="detail">
+                        <h3>Great Savings</h3>
+                        <p>Save big every order</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="https://img.icons8.com/ios/250/000000/last-12-hours.png"/>
+                    <div class="detail">
+                        <h3>12:00Pm-5:00Pm</h3>
+                        <p>One-on-One support</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="https://img.icons8.com/external-bearicons-detailed-outline-bearicons/64/000000/external-Voucher-summer-sales-bearicons-detailed-outline-bearicons.png"/>
+                    <div class="detail">
+                        <h3>Student Vouchers</h3>
+                        <p>Vouchers on every festivals</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="https://img.icons8.com/quill/50/0f2c44/deliver-food--v2.png"/>
+                    <div class="detail">
+                        <h3>On campus delivery</h3>
+                        <p>VIT VSIT VP</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="brand">
+            <div class="box-container">
+                <div class="box">
+                    <img src="img/brand1.png">
+                </div>
+                <div class="box">
+                    <img src="img/brand2.png">
+                </div>
+                <div class="box">
+                    <img src="img/brand3.png">
+                </div>
+                <div class="box">
+                    <img src="img/brand4.png">
+                </div>
+                <div class="box">
+                    <img src="img/brand52.png">
                 </div>
             </div>
         </section>

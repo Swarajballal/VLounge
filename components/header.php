@@ -6,7 +6,7 @@
                 <a href="home.php">Home</a>
                 <a href="view_products.php">Products</a>
                 <a href="order.php">orders</a>
-                <a href="about.php">about us</a>
+                <a href="contact.php">Contact us</a>
             </nav>
             <div class="icons">
                 <i class="bx bxs-user" id="user-btn"></i>
