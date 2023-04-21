@@ -1,5 +1,16 @@
 <?php
-include 'components/connection.php';
+    include 'components/connection.php';
+    session_start();
+    if (isset($_SESSION['user_id'])) {
+        $user_id = $_SESSION['user_id'];
+    }else{
+        $user_id = '';
+    }
+
+    if (isset($_POST['logout'])) {
+        session_destroy();
+        header("location: login.php");
+    }
 ?>
 <style type="text/css">
     <?php include 'style.css'; ?>
@@ -53,36 +64,38 @@ include 'components/connection.php';
             </div>
         </div>
     </section>
-    <div class="form-container">
-        <form method="post">
-            <div class="title">
-                <img src="https://img.icons8.com/external-itim2101-lineal-color-itim2101/80/null/external-contact-us-contact-and-message-itim2101-lineal-color-itim2101-1.png" class="logo"/>
-                <h1>leave a message</h1>
-            </div>
-            <div class="input-field">
-                <p>your name <sup>*</sup></p>
-                <input type="text" name="name">
-            </div>
-            <div class="input-field">
-                <p>your email <sup>*</sup></p>
-                <input type="email" name="email">
-            </div>
-            <div class="input-field">
-                <p>your number <sup>*</sup></p>
-                <input type="text" name="number">
-            </div>
-            <div class="input-field">
-                <p>your message <sup>*</sup></p>
-                <textarea name="message"></textarea>
-            </div>
-            <button type="submit" name="submit-btn" class="btn">send message</button>
-        </form>
+    <div class="main-container">
+        <div class="form-container">
+            <form method="post">
+                <div class="title">
+                    <img src="https://img.icons8.com/external-itim2101-lineal-color-itim2101/80/null/external-contact-us-contact-and-message-itim2101-lineal-color-itim2101-1.png" class="logo"/>
+                    <h1>leave a message</h1>
+                </div>
+                <div class="input-field">
+                    <p>your name <sup>*</sup></p>
+                    <input type="text" name="name">
+                </div>
+                <div class="input-field">
+                    <p>your email <sup>*</sup></p>
+                    <input type="email" name="email">
+                </div>
+                <div class="input-field">
+                    <p>your number <sup>*</sup></p>
+                    <input type="text" name="number">
+                </div>
+                <div class="input-field">
+                    <p>your message <sup>*</sup></p>
+                    <textarea name="message"></textarea>
+                </div>
+                <button type="submit" name="submit-btn" class="btn">send message</button>
+            </form>
+        </div>
     </div>
     <div class="address">
         <div class="title">
             <img src="https://img.icons8.com/external-itim2101-lineal-color-itim2101/80/null/external-contact-us-contact-and-message-itim2101-lineal-color-itim2101-1.png" class="logo"/>
             <h1>contact details</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci</p>
+            <p>"Reach out to us and savor the taste of convenience with V-Lounge's contact options."</p>
         </div>
         <div class="box-container">
             <div class="box">

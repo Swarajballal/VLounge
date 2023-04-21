@@ -711,7 +711,7 @@ textarea{
 }
 
 .form-container p{
-    color: var(--green);
+    color: var(--vit-color);
 }
 
 .form-container sup{
