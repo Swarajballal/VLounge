@@ -1,7 +1,7 @@
 <?php
-    $db_name = 'mysql:host=localhost;dbname=shop_db';
-    $db_user = 'root';
-    $db_password = '';
+    $db_name = 'mysql:host=sql313.epizy.com;dbname=epiz_34063527_shop_db';
+    $db_user = 'epiz_34063527';
+    $db_password = 'VVPepfcuBA1';
 
     $conn = new PDO($db_name, $db_user, $db_password);
 

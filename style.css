@@ -738,7 +738,7 @@ textarea{
 }
 
 .form-container form p{
-    text-transform: uppercase;
+    text-transform: lowercase;
 }
 
 .form-container form input{
@@ -789,6 +789,13 @@ textarea{
     background: var(--vit-color);
     color: #fff;
 }
+
+/*----------------------register login logo----------------*/
+
+.reglog{
+    padding: 2rem 0;
+}
+
 /*---------------------footer section----------------------*/
 .top-footer
 {

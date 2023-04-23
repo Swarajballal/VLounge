@@ -1,17 +1,17 @@
 
 <header class="header">
         <div class="flex">
-            <a href="home.php" class="logo"><img src="img/logo.png"></a>
+            <a href="index.php" class="logo"><img src="img/logo.png"></a>
             <nav class="navbar">
-                <a href="home.php">Home</a>
-                <a href="view_products.php">Products</a>
-                <a href="order.php">orders</a>
+                <a href="index.php">Home</a>
+                <a href="index.php">Menu</a>
+                <a href="index.php">orders</a>
                 <a href="contact.php">Contact us</a>
             </nav>
             <div class="icons">
                 <i class="bx bxs-user" id="user-btn"></i>
-                <a href="wishlist.php" class="cart-btn"><i class="bx bx-heart"></i><sup>0</sup></a>
-                <a href="cart.php" class="cart-btn"><i class="bx bx-cart-download"></i><sup>0</sup></a>
+                <a href="index.php" class="cart-btn"><i class="bx bx-heart"></i><sup>0</sup></a>
+                <a href="index.php" class="cart-btn"><i class="bx bx-cart-download"></i><sup>0</sup></a>
                 <i class="bx bx-list-plus" id="menu-btn" style="font-size: 2rem;"></i>
             </div>
             <div class="user-box">

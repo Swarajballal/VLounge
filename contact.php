@@ -21,7 +21,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <title>Vidyalankar Institute Of Technology</title>
+    <title>V-Lounge Contact Us</title>
 </head>
 <body>
 <?php include 'components/header.php'; ?>
@@ -30,7 +30,7 @@
         <h1>Contact us</h1>
     </div>
     <div class="title2">
-        <a href="home.php">home</a><span>/ contact us</span>
+        <a href="index.php">home</a><span>/ contact us</span>
     </div>
     <section class="services">
         <div class="box-container">

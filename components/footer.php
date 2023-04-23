@@ -20,7 +20,7 @@
                     <li>community matters</li>
                     <li>press</li>
                     <li>blog</li>
-                    <li>bouqs video</li>
+                    <li>buffe</li>
                 </ul>
             </div>
             <div class="card">
