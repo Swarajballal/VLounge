@@ -1,5 +1,5 @@
 
-# V-Lounge
+# V-Lounge 
 
 Welcome to VLounge, the canteen of Vidyalankar Institute of Technology! We offer delicious and nutritious meals for students and staff teachers alike. Our mess is well-equipped to cater to the dietary requirements of students, ensuring that they get healthy and hygienic food. 
 
@@ -10,7 +10,7 @@ So, whether you're a student looking for a quick bite between classes or a teach
 All media used is for educational purpose only!
 personal project demo for a canteen automation with delivery page cart as future scope the site has a home page and login and logout
 
-Technology used are HTML CSS JS PHP and MySQL.
+Technology used are HTML CSS JS PHP and MySQL and hosted.
 
 
 ## Demo
